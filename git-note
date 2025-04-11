@@ -1,0 +1,14 @@
+Hi all welcome to devops
+Today we are explore the topic as Git
+
+Git have stage
+local area
+working area
+stageing are
+local are
+push the changes to remote
+
+
+working are change to staging == using add
+staging are changes to local repo == commit -m 
+local changes to remote area github ==  using push
