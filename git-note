@@ -1,3 +1,68 @@
+Branching strategies:
+============================
+
+main
+dev
+feature
+
+
+error 
+release 
+==============================
+
+Basic Git ==> SCM
+
+developers ==> code implementation based on the application ==> using git branching strategies 
+
+main===> dev ==> feature 
+
+user ==> feature ==> dev ==> git merge ==>
+dev ==> main ==> git merge ==> 
+
+error ==> error branch ==> dev code issue fix==> once issue as been fixed error branch delete
+
+git delete branchname 
+
+===> release == release branch ===  branch as been delete 
+
+===========================
+
+= trying to develop the code 
+
+===working are write==> staging area move with help of git add ==> local repo changes move==> with help of git commit -m ""
+===> changes remote repo move ==> with help of git push origin branchname
+
+======> ask for GitHub credentials ==>
+
+=============================
+
+when we are working in working area we need to undo the changes
+
+==> git checkout filename
+
+when we are in staging are how we undo the changes 
+==> git reset
+
+when we are in local how we undo the changes
+==> git rebase commit modify
+
+==> local orginal ==> change made staging ==> working 
+git diff
+
+==================
+initial time we are clone the GitHub repo using the command as
+
+git clone repo url
+
+==next time onwards we using the command for clone
+
+git pull url
+
+
+===once change made send back to the code to remote
+git push origin main
+
+==============================================================
 Hi all welcome to devops
 Today we are explore the topic as Git
 
